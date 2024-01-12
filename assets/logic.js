@@ -14,13 +14,16 @@ function startGame(){
         timeEl.textContent = secondsLeft;
     
         if(secondsLeft === 0) {
-          // Stops execution of action at set interval
+          // Stop
           clearInterval(timerInterval);
-          // Calls function to create and append image
-         // sendMessage();
+          // Do something when 0 happens
+         
         }
-    
-      }, 1000);
+       }, 1000); //1 second at a time
+//print first question
+console.log(questions[0], [1]);
+
+
 }
 
 
