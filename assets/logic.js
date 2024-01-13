@@ -1,14 +1,20 @@
 
 var startButton = document.querySelector('#start');
 var timeEl = document.querySelector('#time');
-var startScreen = document.querySelector('#start-screen')
-
+var startScreen = document.querySelector('#start-screen');
+var qPage = document.querySelector("#questions");
+var qTitle = document.querySelector("#question-title");
 
 
 
 function startGame(){
     console.log(startButton)
     startScreen.style.display = 'none';
+    console.log(qTitle);
+    qPage.style.display = 'block';
+    qTitle.textContent = 'which is the right answer?';
+    
+    
     
 timer()
 }
