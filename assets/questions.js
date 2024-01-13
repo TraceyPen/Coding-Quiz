@@ -5,7 +5,7 @@ let questions = [
     "answerB":"boolean",
     "answerC":"alerts",
     "answerD":"numbers",
-    "correctAnswer":"alerts",
+    "correctAnswer":"alerts"
 },
 {
     "question":"blq",
@@ -13,7 +13,7 @@ let questions = [
     "answerB":"bla2",
     "answerC":"bla3",
     "answerD":"bla4",
-    "correctAnswer":"bla2",
+    "correctAnswer":"bla2"
 },
 {
     "question":"clq",
@@ -21,7 +21,7 @@ let questions = [
     "answerB":"cla2",
     "answerC":"cla3",
     "answerD":"cla4",
-    "correctAnswer":"cla4",
+    "correctAnswer":"cla4"
 },
 {
     "question":"dlq",
@@ -29,7 +29,7 @@ let questions = [
     "answerB":"dla2",
     "answerC":"dla3",
     "answerD":"dla4",
-    "correctAnswer":"dla1",
+    "correctAnswer":"dla1"
 },
 
 
